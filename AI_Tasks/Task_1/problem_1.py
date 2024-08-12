@@ -5,8 +5,11 @@ while True :
         break
     else:
         numbers.append(num)
+if(numbers):
+    largest = max(numbers)
+    smallest = min(numbers)
+    print (largest , smallest)
+else:
+    print("No numbers were entered")
 
-largest = max(numbers)
-smallest = min(numbers)
 
-print (largest , smallest)
